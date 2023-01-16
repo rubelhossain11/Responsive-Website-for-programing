@@ -1,0 +1,396 @@
+/* common designs  */
+* {
+  margin: 0;
+  padding: 0;
+}
+.content-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+}
+.primary-button {
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+  width: 180px;
+  height: 64px;
+  background: #ff900e;
+  border-radius: 8px;
+  border: none;
+}
+
+.hide {
+  display: none;
+}
+/* header design  */
+
+.header-container {
+  background: rgba(255, 144, 14, 0.1);
+}
+
+/* navbar design  */
+
+.nav-container {
+  padding: 50px 200px 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-container .logo {
+  margin: 10px 0;
+}
+nav ul {
+  display: flex;
+}
+nav ul li a {
+  color: #000;
+  text-decoration: none;
+}
+nav ul li {
+  list-style: none;
+  padding: 0px 10px;
+}
+.login-btn {
+  font-weight: 600;
+  background-color: transparent;
+  border: 0;
+}
+
+/* banner design  */
+.banner-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.banner-content {
+  width: 50%;
+  text-align: center;
+  padding: 0px 300px 30px;
+}
+.banner-heading {
+  font-weight: 700;
+  font-size: 50px;
+  margin-top: 0;
+}
+
+.banner-image {
+  padding: 50px 200px 40px;
+}
+.banner-image img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Feature design  */
+
+.feature-section {
+  padding: 30px 270px 0px;
+}
+.features-container {
+  display: flex;
+  justify-content: space-between;
+}
+.feature-items {
+  text-align: left;
+  width: 45%;
+}
+.feature-photo-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+.feature-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+}
+.feature-content {
+  padding-top: 50px;
+}
+.feature-heading {
+  padding-top: 30px;
+}
+.feature-heading h2 {
+  border-left: 5px solid #ff900e;
+  padding-left: 5px;
+  font-size: 45px;
+  font-weight: 700px;
+}
+.span-style-1 {
+  font-weight: 500;
+  color: #727272;
+}
+.span-style-2 {
+  color: #ff900e;
+}
+
+/* descriptive features  design  */
+
+.descriptive-features-section {
+  padding-top: 20px;
+}
+.descriptive-features-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 20px 200px;
+}
+.descriptive-feature-item {
+  width: 40%;
+}
+.descriptive-feature-photo {
+  width: 60%;
+}
+.features-article-container {
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.feature-card {
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px -1px rgba(0, 0, 0, 0.1);
+}
+.photo-container {
+  padding-top: 100px;
+  width: 100%;
+}
+.photo-container img {
+  width: 100%;
+}
+.item-heading {
+  font-weight: 700;
+  font-size: 40px;
+}
+.experience-btn {
+  text-align: center;
+  width: 150px;
+  height: 100px;
+  background: #ff900e;
+  border-radius: 8px;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  position: relative;
+  bottom: 100px;
+  left: calc(50% - 20px);
+}
+.experience-btn .btn-heading {
+  margin: 0;
+  font-weight: 700;
+  font-size: 25px;
+}
+.experience-btn p {
+  font-weight: 500;
+  font-size: 18px;
+  margin: 0;
+}
+
+/* fact section design  */
+
+.fact-section {
+  padding: 0px 200px;
+}
+.fact-introduction {
+  width: 50%;
+}
+.fact-introduction h2 {
+}
+.fact-card-container {
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.fact-card {
+  height: 150px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3px;
+  text-align: center;
+  border: 2px solid #ff900e;
+  border-radius: 8px;
+  transition: 0.5s;
+}
+
+/* hover effect for card */
+.fact-card:hover {
+  box-shadow: 3px 3px 7px 4px rgba(0, 0, 0, 0.2);
+}
+
+.fact-card img {
+  height: 45px;
+  width: 45px;
+  margin: 0 auto;
+}
+.fact-card h3 {
+  margin: 0;
+  font-weight: 600;
+  color: #424242;
+}
+.fact-card p {
+  margin: 0;
+  font-weight: 600;
+  color: #727272;
+}
+
+/* sponsor section  design*/
+
+.sponsor-container {
+  padding: 60px 200px 50px;
+  text-align: center;
+}
+.sponsor-introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sponsor-description {
+  width: 60%;
+  margin-top: 0;
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+}
+.sponsor-logos {
+  margin: 10px 0;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.sponsor-logos img {
+  filter: grayscale(100%);
+  width: 120px;
+  height: auto;
+}
+
+/* footer design  */
+.footer-container {
+  padding: 80px 200px 20px;
+}
+
+.footer-content {
+  padding: 20px 100px;
+  text-align: center;
+  background: #fff4e7;
+  border-radius: 8px;
+}
+.footer-content p {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #424242;
+}
+
+footer {
+  color: #fff;
+  width: 100%;
+  height: 300px;
+  background-color: #352e28;
+}
+.footer-contents {
+  padding: 50px;
+  text-align: center;
+}
+.about-us {
+  text-align: left;
+}
+.about-us p,
+.about-us h4 {
+  margin: 0;
+  padding-bottom: 5px;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-around;
+}
+.social-links ul {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+.social-links ul li {
+  list-style: none;
+
+  text-decoration: none;
+}
+.social-links h4 {
+  margin-top: 0px;
+}
+
+/* design for smaller devices */
+
+@media only screen and (max-width: 576px) {
+  .nav-container,
+  .banner-content,
+  .banner-image,
+  .feature-section,
+  .descriptive-features-container,
+  .fact-section,
+  .sponsor-container,
+  .footer-container {
+    padding-left: 0; /*  side padding remover */
+    padding-right: 0;
+  }
+  .nav-container,
+  .features-container,
+  .descriptive-features-container,
+  .fact-section,
+  .fact-card-container,
+  .sponsor-logos {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .fact-section {
+    width: 100%;
+  }
+  .banner-content,
+  .feature-content,
+  .descriptive-feature-item {
+    width: 80%;
+  }
+
+  .feature-content {
+    margin-left: 40px;
+  }
+  .feature-photo-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .feature-photo,
+  .feature-items {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  .photo-container {
+    padding-top: 0;
+  }
+  .experience-btn {
+    bottom: 40px;
+    left: 10%;
+  }
+  .fact-introduction {
+    width: 70%;
+    text-align: center;
+  }
+  .sponsor-logos img {
+    padding-bottom: 10px;
+  }
+  .footer-container {
+    padding: 20px 0 50px;
+  }
+  .footer-contents {
+    padding: 20px 20px 50px 0;
+  }
+
+  .footer-contents h3 {
+    padding: 0 20px;
+  }
+}
